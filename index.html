@@ -85,20 +85,6 @@
 
                                             <!-- STYLES -->
                                             <style>
-                                                .fxs_col_50_st {
-                                                    width: 100%;
-                                                    display: block;
-                                                }
-
-                                                @media (min-width: 768px) {
-                                                    .fxs_col_50_st {
-                                                        float: left;
-                                                        display: inline-block;
-                                                        vertical-align: top;
-                                                        width: 50%;
-                                                    }
-                                                }
-
                                                 .fxs_widget_exchange_listing.fxs_table>thead>tr>th,
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>th {
                                                     text-align: center;
@@ -108,9 +94,20 @@
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>th:first-child {
                                                     text-align: left;
                                                 }
-                                                .fxs_widget_exchange_listing.fxs_table>tbody>tr>td .fa{
-                                                    margin:0 19px;
+
+                                                .fxs_widget_exchange_listing.fxs_table>tbody>tr>td .fa {
+                                                    margin: 0 19px;
                                                     font-size: 20px;
+                                                }
+
+                                                .fxs_widget_exchange_listing.fxs_table>tbody>tr>td.fxs_logos_cryptos {
+                                                    width: 60px
+                                                }
+
+                                                @media(min-width:768px) {
+                                                    .fxs_widget_exchange_listing.fxs_table>tbody>tr>td.fxs_logos_cryptos {
+                                                        width: 120px
+                                                    }
                                                 }
                                             </style>
                                             <!-- STYLES END -->
@@ -143,29 +140,20 @@
                                                                     Inter Trader
                                                                 </a>
                                                             </td>
-                                                            <td>
-                                                                <div class="fxs_col_50_st">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/bitcoin.svg" alt="" width="20">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/litecoin.svg" alt="" width="20">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/ethereum.svg" alt="" width="20">
-                                                                </div>
-                                                                <div class="fxs_col_50_st">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/dash.svg" alt="" width="20">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/ripple.svg" alt="" width="20">
-                                                                    <img src="https://editorial.fxstreet.com/images-input/Others/bitcoin-cash.svg" alt="" width="20">
-                                                                </div>
+                                                            <td class="fxs_logos_cryptos">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/bitcoin.svg" alt="" width="20">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/litecoin.svg" alt="" width="20">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/ethereum.svg" alt="" width="20">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/dash.svg" alt="" width="20">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/ripple.svg" alt="" width="20">
+                                                                <img src="https://editorial.fxstreet.com/images-input/Others/bitcoin-cash.svg" alt="" width="20">
                                                             </td>
                                                             <td>
                                                                 100 USD
                                                             </td>
                                                             <td>
-                                                                <div class="fxs_col_50_st">
-                                                                    <span class="fa fa-credit-card" aria-hidden="true"></span>
-                                                                </div>
-                                                                <div class="fxs_col_50_st">
-                                                                    <span class="fa fa-paypal" aria-hidden="true"></span>
-                                                                </div>
-                                                                </p>
+                                                                <span class="fa fa-credit-card" aria-hidden="true"></span>
+                                                                <span class="fa fa-paypal" aria-hidden="true"></span>
                                                             </td>
                                                             <td>
                                                                 This guide lists the components
