@@ -134,10 +134,21 @@
                                                     width: 20px;
                                                     height: 20px;
                                                 }
+
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>th,
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>td>a.fxs_txt_dark_4,
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>td>a.fxs_btn {
                                                     white-space: nowrap;
+                                                }
+
+                                                .fxs_widget_exchange_listing.fxs_table .fxs_min_buy {
+                                                    display: none;
+                                                }
+
+                                                @media (min-width: 1024px) {
+                                                    .fxs_widget_exchange_listing.fxs_table .fxs_min_buy {
+                                                        display: table-cell;
+                                                    }
                                                 }
                                             </style>
                                             <!-- STYLES END -->
@@ -151,8 +162,10 @@
                                                             <th>BROKER</th>
                                                             <th>&nbsp;</th>
                                                             <th>CRYPTOS</th>
-                                                            <th class="fxs_hidden_s">MIN BUY</th>
-                                                            <th>PAYMENT<span class="fxs_hidden_s_iBlock"> METHOD</span></th>
+                                                            <th class="fxs_min_buy">MIN BUY</th>
+                                                            <th>PAYMENT
+                                                                <span class="fxs_hidden_s_iBlock"> METHOD</span>
+                                                            </th>
                                                             <th>PROMO</th>
                                                             <th>&nbsp;</th>
                                                             <th>&nbsp;</th>
