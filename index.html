@@ -107,6 +107,18 @@
                                                     }
                                                 }
 
+                                                .fxs_table>thead>tr>th.fxs_hidden_table_xxs,
+                                                .fxs_table>tbody>tr>td.fxs_hidden_table_xxs {
+                                                    display: none;
+                                                }
+
+                                                @media (min-width: 540px) {
+                                                    .fxs_table>thead>tr>th.fxs_hidden_table_xxs,
+                                                    .fxs_table>tbody>tr>td.fxs_hidden_table_xxs {
+                                                        display: table-cell;
+                                                    }
+                                                }
+
 
                                                 .fxs_widget_exchange_listing.fxs_table>thead>tr>th,
                                                 .fxs_widget_exchange_listing.fxs_table>tbody>tr>th,
@@ -195,7 +207,7 @@
                                                             <th>CRYPTOS</th>
                                                             <th class="fxs_min_buy">MIN BUY</th>
                                                             <th class="fxs_payment_method fxs_hidden_table_xs">PAYMENT</th>
-                                                            <th class="fxs_hidden_table_xs">PROMO</th>
+                                                            <th class="fxs_hidden_table_xxs">PROMO</th>
                                                             <th>&nbsp;</th>
                                                             <th>&nbsp;</th>
                                                         </tr>
@@ -227,7 +239,7 @@
                                                                 <span class="fa fa-credit-card" aria-hidden="true"></span>
                                                                 <span class="fa fa-paypal" aria-hidden="true"></span>
                                                             </td>
-                                                            <td class="fxs_hidden_table_xs">
+                                                            <td class="fxs_hidden_table_xxs">
                                                                 This guide lists the componentsaaaa
                                                             </td>
                                                             <td>
