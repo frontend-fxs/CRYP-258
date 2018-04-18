@@ -95,12 +95,14 @@
 
                                             <!-- STYLES -->
                                             <style>
-                                                .fxs_hidden_table_xs {
+                                                .fxs_table>thead>tr>th.fxs_hidden_table_xs,
+                                                .fxs_table>thead>tr>td.fxs_hidden_table_xs {
                                                     display: none;
                                                 }
 
                                                 @media (min-width: 680px) {
-                                                    .fxs_hidden_table_xs {
+                                                    .fxs_table>thead>tr>th.fxs_hidden_table_xs,
+                                                    .fxs_table>thead>tr>td.fxs_hidden_table_xs {
                                                         display: table-cell;
                                                     }
                                                 }
